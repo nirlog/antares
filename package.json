@@ -6,14 +6,15 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nirlog/antares.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aleksandr Lebedev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nirlog/antares/issues"
@@ -25,6 +26,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "cssnano": "^5.1.12",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
