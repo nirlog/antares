@@ -1,0 +1,14 @@
+.list-buttons__link {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #575756;
+}
+
+.list-buttons__link:hover {
+    color: #B5B614;
+}
+
+.list-buttons__link.active {
+    color: #B5B614;
+}

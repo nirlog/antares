@@ -1,0 +1,10 @@
+.list-buttons__icon {
+    height: 26px;
+    display: block;
+    margin: auto;
+}
+
+.list-buttons__link.active .list-buttons__icon path,
+ .list-buttons__link:hover .list-buttons__icon path {
+    fill: #B5B614;
+}

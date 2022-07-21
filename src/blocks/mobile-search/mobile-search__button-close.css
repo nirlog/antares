@@ -1,0 +1,13 @@
+.mobile-search__button-close {
+    height: 18px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    position: relative;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.mobile-search__button-close img {
+    width: 18px;
+    height: 18px;
+}

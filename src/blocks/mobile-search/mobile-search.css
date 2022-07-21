@@ -1,0 +1,22 @@
+.mobile-search {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 12px  rgba(87, 87, 86, 0.35);
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 14px);
+    margin: 7px;
+    transform: translateY(0);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    z-index: 1;
+    transition: transform .15s ease-out;
+}
+
+.mobile-search.active {
+    transform: translateY(-130%);
+}

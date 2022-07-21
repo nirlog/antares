@@ -1,0 +1,11 @@
+.top-menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    border-bottom: 4px solid #B5B614;
+}
