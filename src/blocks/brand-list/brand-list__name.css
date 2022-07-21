@@ -1,0 +1,11 @@
+.brand-list__name {
+    background-color: #000000;
+    color: #fff;
+    height: 24px;
+    border-radius: 0 0 5px 5px;
+    padding: 0 7px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}

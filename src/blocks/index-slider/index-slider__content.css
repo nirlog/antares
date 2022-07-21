@@ -1,0 +1,14 @@
+.index-slider__content {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,20 @@
+.section__title-line {
+    font-family: 'Stockmann Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 91%;
+    text-transform: uppercase;
+    color: #575756;
+    margin: 0;
+    padding: 20px 0 0;
+}
+
+.section__title-line::after {
+    content: '';
+    display: block;
+    margin: 15px auto 20px;
+    width: 150px;
+    height: 3px;
+    background: #b2b352;
+}

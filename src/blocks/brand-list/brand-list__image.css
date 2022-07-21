@@ -1,0 +1,10 @@
+.brand-list__image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    filter: grayscale(1);
+    transition: all 0.1s linear;
+}
+
+.brand-list__link:hover .brand-list__image {
+    filter: grayscale(0);
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Antares</title>
+  <title>Antares Index</title>
 </head>
 
 <body class="mobile-page" style="background-color:#fff; width: 100%;max-width: 390px; margin: auto;">
@@ -65,7 +65,140 @@
 
     </div>
   </header>
-  <main style="height: 600px;"></main>
+
+  <main class="main">
+    <section class="index-slider">
+      <div class="owl-carousel">
+        <div class="index-slider__item" style="background-image: url(<%=require('./images/mobile-slider/mobile-slider-01.jpg')%>);">
+          <div class="index-slider__content">
+            <div class="index-slider__title">Акция</div>
+            <div class="index-slider__subtitle">Летний<br> SALE</div>
+            <a href="" class="button button_type_outline index-slider__button">Подробнее</a>
+          </div>
+          <div class="index-slider__bg"></div>
+        </div>
+        <div class="index-slider__item" style="background-image: url(<%=require('./images/mobile-slider/mobile-slider-01.jpg')%>);">
+          <div class="index-slider__content">
+            <div class="index-slider__title">Акция</div>
+            <div class="index-slider__subtitle">Летний SALE</div>
+            <a href="" class="button button_type_outline index-slider__button">Подробнее</a>
+          </div>
+          <div class="index-slider__bg"></div>
+        </div>
+      </div>
+    </section>
+    <section class="authorization-block">
+      <a class="button button_size_full authorization-block__btn-registration" href="http://">Войти</a>
+      <a class="button button_size_full button_color_gray authorization-block__btn-authorization" href="http://">Регистрация</a>
+      <a class="button button_size_full button_color_gray button_type_outline authorization-block__btn__conditions" href="http://">Условия сотрудничества</a>
+    </section>
+    <section class="section">
+      <h3 class="section__title">Посуда мировых брендов</h3>
+      <ul class="brand-list">
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/01.jpg')%>" alt="CHURCHILL" class="brand-list__image">
+            <div class="brand-list__name">CHURCHILL</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/02.png')%>" alt="Cristal d’Arques Paris" class="brand-list__image">
+            <div class="brand-list__name">Cristal d’Arques Paris</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/03.jpg')%>" alt="Emile Henry" class="brand-list__image">
+            <div class="brand-list__name">Emile Henry</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/04.png')%>" alt="Jars" class="brand-list__image">
+            <div class="brand-list__name">Jars</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/05.jpg')%>" alt="Gastrolux" class="brand-list__image">
+            <div class="brand-list__name">Gastrolux</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/06.jpg')%>" alt="KUHN RIKON" class="brand-list__image">
+            <div class="brand-list__name">KUHN RIKON</div>
+          </a>
+        </li>
+
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/07.jpg')%>" alt="Lekue" class="brand-list__image">
+            <div class="brand-list__name">Lekue</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/08.jpg')%>" alt="Mastrad" class="brand-list__image">
+            <div class="brand-list__name">Mastrad</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/09.png')%>" alt="Microplane" class="brand-list__image">
+            <div class="brand-list__name">Microplane</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/10.jpg')%>" alt="PEUGEOT" class="brand-list__image">
+            <div class="brand-list__name">PEUGEOT</div>
+          </a>
+        </li>
+        <li class="brand-list__item">
+          <a href="#" class="brand-list__link">
+            <img src="<%=require('./images/catalog/11.png')%>" alt="SQUALITY" class="brand-list__image">
+            <div class="brand-list__name">SQUALITY</div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h3 class="section__title-line text__center">Мы предлагаем нашим партнерам</h3>
+      <p class="text__center">Товары от ведущих мировых производителей посуды и кухонных аксессуаров, которые являются законодателями современных тенденций - каждый в своих нишах</p>
+      <p class="text__center"><a href="#" class="button button_type_outline">Стать партнером</a></p>
+    </section>
+
+    <section class="section news-list">
+      <h3 class="section__title">новости</h3>
+      <article class="news-list__item">
+        <img class="news-list__image" src="<%=require('./images/news/news-01.jpg')%>" alt="">
+        <div class="news-list__date"></div>
+        <h3 class="news-list__title">Лучшее предприятие отрасли 2021</h3>
+        <p class="news-list__text">ООО "АНТАРЕС ТРЕЙД"  внесена в «Рейтинг надежных партнеров»</p>
+        <a href="" class="button button_type_outline news-list__link">Читать полностью</a>
+      </article>
+      <article class="news-list__item">
+        <img class="news-list__image" src="<%=require('./images/news/news-02.jpg')%>" alt="">
+        <div class="news-list__date">02.02.2021</div>
+        <h3 class="news-list__title">Презентация бренда посуды Squality</h3>
+        <p class="news-list__text">Презентация нового бренда премиальной антипригарной посуды из Дании - Squality</p>
+        <a href="" class="button button_type_outline news-list__link">Читать полностью</a>
+      </article>
+      <article class="news-list__item">
+        <img class="news-list__image" src="<%=require('./images/news/news-03.jpg')%>" alt="">
+        <div class="news-list__date">02.10.2020</div>
+        <h3 class="news-list__title">Мастер-класс в студии дизайна и посуды MATIGROUP</h3>
+        <p class="news-list__text">Выездной мастер-класс 2-го и 3-го октября в замечательный город Курск к своим партнерам – группе компаний MATIGROUP.</p>
+        <a href="" class="button button_type_outline news-list__link">Читать полностью</a>
+      </article>
+      
+    </section>
+    
+
+  </main>
   <footer></footer>
   <div class="bottom-panel">
     <div class="position_relative">
@@ -126,14 +259,14 @@
           <span class="list-buttons__text">Условия партнерства</span>
         </a>
       </li>
-      <!-- <li class="list-buttons__item">
+      <li class="list-buttons__item" style="display: none"><!-- условия для появления -->
         <a href="#" class="list-buttons__link list-buttons__basket">
           <svg class="list-buttons__icon" width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.22845 23.4115C9.22845 21.9668 10.4271 20.8231 11.8729 20.8231C13.3177 20.8231 14.5163 21.9668 14.5163 23.4115C14.5163 24.8563 13.3177 26 11.8729 26C10.4271 26 9.22845 24.8563 9.22845 23.4115ZM0.223755 1.33708C0.223755 0.598775 0.822529 0 1.56193 0H4.61294C5.83246 0 6.93113 0.809718 7.24205 2.01825L7.75513 4.01344H27.3444C28.8067 4.01344 30.0559 5.17803 30.0559 6.6887C30.0559 6.88646 30.0339 7.08422 29.99 7.27648L27.852 16.6415C27.5674 17.8852 26.4501 18.729 25.2053 18.729H10.8841C10.284 18.7317 9.70004 18.5349 9.22394 18.1696C8.74784 17.8043 8.40663 17.2911 8.25393 16.7108L5.42925 5.71308C5.42372 5.69452 5.41859 5.67583 5.41387 5.65705L4.65249 2.68844L4.65029 2.68625C4.6397 2.67879 4.62699 2.67494 4.61404 2.67526H1.56193C1.20722 2.67526 0.867012 2.53442 0.616086 2.2837C0.365161 2.03298 0.224046 1.6929 0.223755 1.33818V1.33708ZM8.4418 6.6887L10.8446 16.0406L10.8468 16.0428C10.8534 16.0483 10.8655 16.0537 10.8841 16.0537H25.2053C25.2186 16.0544 25.2318 16.0505 25.2426 16.0428L25.2448 16.0406L27.3785 6.69749C27.3757 6.69574 27.3727 6.69427 27.3697 6.69309C27.3613 6.68987 27.3523 6.68838 27.3433 6.6887H8.4429H8.4418ZM21.6017 23.4115C21.6017 21.9668 22.8003 20.8231 24.2462 20.8231C25.6909 20.8231 26.8896 21.9668 26.8896 23.4115C26.8896 24.8563 25.692 26 24.2462 26C22.8003 26 21.6017 24.8563 21.6017 23.4115Z" fill="#575756"/>
           </svg>
           <span class="list-buttons__text">Корзина</span>
         </a>
-      </li> -->
+      </li>
     </ul>
   </div>
 </body>

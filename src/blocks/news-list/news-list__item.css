@@ -1,0 +1,5 @@
+.news-list__item {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6.47059px 12.9412px rgb(0 0 0 / 5%), 0 0 1.29412px rgb(10 33 65 / 13%);
+}
