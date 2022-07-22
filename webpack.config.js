@@ -8,6 +8,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
       index: './src/pages/index.js',
+      slider: './src/pages/slider.js',
     },
 
     output: {
@@ -74,11 +75,18 @@ module.exports = {
           chunks: ["index"],
         }),
         new HtmlWebpackPlugin({
-          inject: true,
-          minify: false,
-          template: './src/catalog-brands.html',
-          filename: 'catalog-brands.html',
-          chunks: ["index"],
+            inject: true,
+            minify: false,
+            template: './src/catalog-brands.html',
+            filename: 'catalog-brands.html',
+            chunks: ["index"],
+        }),
+        new HtmlWebpackPlugin({
+            inject: true,
+            minify: false,
+            template: './src/slider.html',
+            filename: 'slider.html',
+            chunks: ["slider"],
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin(),

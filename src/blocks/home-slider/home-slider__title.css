@@ -1,0 +1,12 @@
+.home-slider__title {
+    font-family: 'Stockmann Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 61px;
+    line-height: 91%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
