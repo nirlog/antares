@@ -65,12 +65,19 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
-          }),
+        }),
         new HtmlWebpackPlugin({
           inject: true,
           minify: false,
           template: './src/index.html',
           filename: 'index.html',
+          chunks: ["index"],
+        }),
+        new HtmlWebpackPlugin({
+          inject: true,
+          minify: false,
+          template: './src/catalog-brands.html',
+          filename: 'catalog-brands.html',
           chunks: ["index"],
         }),
         new CleanWebpackPlugin(),

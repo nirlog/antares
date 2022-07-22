@@ -1,0 +1,19 @@
+.form__label-checkbox {
+    display: flex;
+}
+
+.form__checkbox + .form__label-checkbox::before {
+        content: "";
+        width: 1em;
+        height: 1em;
+        border-radius: 1em;
+        border: 1px solid #575756;
+        background-color: #ffffff;
+        display: inline-block;
+        margin-right: 6px;
+}
+
+.form__checkbox:checked + .form__label-checkbox::before  {
+    background-color: #b5b614;
+    box-shadow: inset #fff 0 0 3px 1px;
+}

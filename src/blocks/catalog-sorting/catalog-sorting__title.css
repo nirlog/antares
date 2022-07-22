@@ -1,0 +1,7 @@
+.catalog-sorting__title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    grid-column: 1/3;
+}

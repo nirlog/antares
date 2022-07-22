@@ -1,0 +1,23 @@
+.catalog-brands__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: clip;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+}
+.catalog-brands__list::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.catalog-brands__list::-webkit-scrollbar-track {
+    background: #efefef;
+}
+.catalog-brands__list::-webkit-scrollbar-thumb {
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    border: 2px solid #efefef;
+}

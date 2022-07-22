@@ -1,0 +1,9 @@
+.catalog-sorting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+    justify-items: stretch;
+    align-items: start;
+    padding-top: 20px;
+}

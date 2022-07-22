@@ -1,0 +1,10 @@
+.catalog-sorting__selection {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    justify-self: end;
+}
+
+.catalog-sorting__selection .form__select {
+    min-width: 178px;
+}

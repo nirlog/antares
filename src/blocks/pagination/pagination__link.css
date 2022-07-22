@@ -1,0 +1,17 @@
+.pagination__link {
+    text-decoration: none;
+    color: #575756;
+    padding: 0 5px;
+    min-width: 19px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+.pagination__link:hover {
+    background: #B5B614;
+    color: #fff;
+}

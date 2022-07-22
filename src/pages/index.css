@@ -1,9 +1,17 @@
 @import url(../blocks/mobile-page/mobile-page.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_gray.css);
+@import url(../blocks/button/_color/button_color_black.css);
 @import url(../blocks/button/_type/button_type_outline.css);
 @import url(../blocks/button/_size/button_size_full.css);
+@import url(../blocks/button/_size/button_size_small.css);
 @import url(../blocks/text/text__center.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/form__select.css);
+@import url(../blocks/form/form__option.css);
+@import url(../blocks/form/form__checkbox.css);
+@import url(../blocks/form/form__label-checkbox.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/top-panel/top-panel.css);
@@ -71,5 +79,39 @@
 @import url(../blocks/news-list/news-list__date.css);
 @import url(../blocks/news-list/news-list__text.css);
 @import url(../blocks/news-list/news-list__link.css);
+
+@import url(../blocks/catalog-brands/catalog-brands.css);
+@import url(../blocks/catalog-brands/catalog-brands__list.css);
+@import url(../blocks/catalog-brands/catalog-brands__item.css);
+@import url(../blocks/catalog-brands/catalog-brands__name.css);
+@import url(../blocks/catalog-brands/catalog-brands__logo.css);
+
+@import url(../blocks/catalog-sorting/catalog-sorting.css);
+@import url(../blocks/catalog-sorting/catalog-sorting__desc.css);
+@import url(../blocks/catalog-sorting/catalog-sorting__title.css);
+@import url(../blocks/catalog-sorting/catalog-sorting__products-quantity.css);
+@import url(../blocks/catalog-sorting/catalog-sorting__selection.css);
+
+@import url(../blocks/catalog-nav/catalog-nav.css);
+@import url(../blocks/catalog-availability-filter/catalog-availability-filter.css);
+@import url(../blocks/catalog-pagination/catalog-pagination.css);
+
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/pagination__item.css);
+@import url(../blocks/pagination/pagination__link.css);
+@import url(../blocks/pagination/pagination__prev.css);
+@import url(../blocks/pagination/pagination__next.css);
+
+@import url(../blocks/catalog-products/catalog-products.css);
+@import url(../blocks/catalog-product/catalog-product.css);
+@import url(../blocks/catalog-product/catalog-product__article.css);
+@import url(../blocks/catalog-product/catalog-product__buttons.css);
+@import url(../blocks/catalog-product/catalog-product__content.css);
+@import url(../blocks/catalog-product/catalog-product__prices.css);
+@import url(../blocks/catalog-product/catalog-product__images.css);
+@import url(../blocks/catalog-product/catalog-product__img.css);
+@import url(../blocks/catalog-product/catalog-product__name.css);
+@import url(../blocks/catalog-product/catalog-product__price.css);
+@import url(../blocks/catalog-product/catalog-product__quantity.css);
 
 

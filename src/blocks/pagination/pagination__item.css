@@ -1,0 +1,16 @@
+.pagination__item {
+    border: 1px solid rgba(87, 87, 86, 0.2);
+    border-radius: 6px;
+    min-width: 19px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.pagination__item:not(:first-child) {
+    margin-left: 12px;
+}
+.pagination__item.active {
+    background: #B5B614;
+    color: #fff;
+    padding: 0 5px;
+
+}

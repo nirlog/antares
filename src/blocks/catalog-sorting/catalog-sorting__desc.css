@@ -1,0 +1,4 @@
+.catalog-sorting__desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

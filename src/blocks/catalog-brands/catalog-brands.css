@@ -1,0 +1,6 @@
+.catalog-brands {
+    width: 100%;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 20px;
+}
