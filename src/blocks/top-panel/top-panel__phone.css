@@ -1,0 +1,7 @@
+.top-panel__phone {
+    text-decoration: none;
+}
+
+.top-panel__phone:hover {
+    text-decoration: underline;
+}

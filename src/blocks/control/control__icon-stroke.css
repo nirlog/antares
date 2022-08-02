@@ -1,0 +1,7 @@
+.control__icon-stroke {}
+
+.control__link:hover .control__icon .control__icon-stroke {
+    fill: none;
+    stroke: #B5B614;
+
+}

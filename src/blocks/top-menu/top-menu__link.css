@@ -1,16 +1,11 @@
 .top-menu__link {
-    font-family: 'Stockmann Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 91%;
-    color: #686868;
-    display: flex;
-    align-content: center;
-    align-items: center;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
     text-decoration: none;
+
 }
 
-.top-menu__link .icon {
-    padding-right: 10px;
+.top-menu__link:hover {
+    text-decoration: underline;
 }

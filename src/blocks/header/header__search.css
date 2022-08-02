@@ -1,0 +1,10 @@
+.header__search {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    min-width: 120px;
+}
+
+.header_sticky .header__search {
+    order: 3;
+}

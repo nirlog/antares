@@ -1,0 +1,5 @@
+.mobile-list-buttons__link.active .mobile-list-buttons__icon .mobile-list-buttons__icon-stroke,
+ .mobile-list-buttons__link:hover .mobile-list-buttons__icon .mobile-list-buttons__icon-stroke {
+    fill: none;
+    stroke: #B5B614;
+}

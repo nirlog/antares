@@ -1,5 +1,6 @@
 .home-slider {
     width: 100%;
+    display: block;
 }
 
 .home-slider .owl-nav {
@@ -59,4 +60,10 @@ padding: 0 60px;
 
 .home-slider .owl-dots .owl-dot:not(:first-child) {
     margin-left: 9px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-slider {
+        display: none !important;
+    }
 }

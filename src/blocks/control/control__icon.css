@@ -1,0 +1,10 @@
+.control__icon {
+    height: 28px;
+    width: 28px;
+    background-color: #fff;
+    border-radius: 28px;
+}
+
+.control__link:hover .control__icon path {
+    fill: #B5B614;
+}

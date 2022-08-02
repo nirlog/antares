@@ -1,0 +1,10 @@
+.mobile-list-buttons__icon {
+    height: 26px;
+    display: block;
+    margin: auto;
+}
+
+.mobile-list-buttons__link.active .mobile-list-buttons__icon path,
+ .mobile-list-buttons__link:hover .mobile-list-buttons__icon path {
+    fill: #B5B614;
+}

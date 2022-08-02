@@ -1,0 +1,11 @@
+.search {
+    height: 28px;
+    display: block;
+    border-radius: 10px;
+    background: #fff;
+    border: solid 1px #aaa;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+}

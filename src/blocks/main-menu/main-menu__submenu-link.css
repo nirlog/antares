@@ -1,0 +1,15 @@
+.main-menu__submenu-link {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 5px 0;
+    color: #908b80;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.main-menu__submenu-link:hover {
+    color: #b3b430;
+ }

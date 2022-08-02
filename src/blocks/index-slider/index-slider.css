@@ -1,6 +1,7 @@
 .index-slider {
     width: calc(100% + 40px);
     margin-left: -20px;
+    display: none;
 }
 
 .index-slider .owl-nav {
@@ -51,4 +52,10 @@
 
 .index-slider .owl-dots .owl-dot:not(:first-child) {
     margin-left: 9px;
+}
+
+@media screen and (max-width: 1000px) {
+    .index-slider {
+        display: block;
+    }
 }

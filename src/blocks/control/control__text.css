@@ -1,0 +1,15 @@
+.control__text {
+    padding: 0 38px 0 14px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 28px;
+    border-radius: 14px;
+    margin-right: -28px;
+
+}
+
+.control__link:hover .control__text {
+    background-color: #B5B614;
+    color: #fff;
+}

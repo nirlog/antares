@@ -1,0 +1,9 @@
+.desktop-top-panel {
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .desktop-top-panel {
+        display: none;
+    }
+}

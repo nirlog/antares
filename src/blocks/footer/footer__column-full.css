@@ -1,0 +1,10 @@
+.footer__column-full {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer__column-full > *:not(:last-child) {
+    padding-right: 18px;
+}

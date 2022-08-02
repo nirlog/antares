@@ -1,0 +1,19 @@
+.mobile-top-panel {
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-top-panel {
+        display: flex;
+    }
+}
+
+
+

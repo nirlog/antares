@@ -1,0 +1,6 @@
+.top-panel__contact {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}

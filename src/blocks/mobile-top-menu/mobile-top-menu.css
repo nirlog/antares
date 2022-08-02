@@ -1,0 +1,12 @@
+.mobile-top-menu {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    transition: height .3s ease-out;
+}

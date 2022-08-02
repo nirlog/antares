@@ -1,5 +1,0 @@
-.list-buttons__link.active .list-buttons__icon .list-buttons__icon-stroke,
- .list-buttons__link:hover .list-buttons__icon .list-buttons__icon-stroke {
-    fill: none;
-    stroke: #B5B614;
-}

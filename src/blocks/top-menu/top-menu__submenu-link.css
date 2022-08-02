@@ -1,0 +1,13 @@
+.top-menu__submenu-link {
+    color: #000;
+    background-color: #fff;
+    display: block;
+    padding: 3px 20px;
+    text-decoration: none;
+    transition: all .15s linear;
+}
+
+.top-menu__submenu-link:hover {
+    color: #fff;
+    background-color: #000;
+}

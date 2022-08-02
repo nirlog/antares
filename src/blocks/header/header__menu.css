@@ -1,0 +1,8 @@
+.header__menu {
+    grid-column: 1/4;
+}
+
+.header_sticky .header__menu {
+    grid-column: 2/3;
+    order: 2;
+}

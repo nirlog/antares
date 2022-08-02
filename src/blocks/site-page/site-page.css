@@ -1,0 +1,19 @@
+.site-page {
+    position: relative;
+    color: #575756;
+    font-family: 'Stockmann Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #575756;
+    text-decoration: none;
+}
