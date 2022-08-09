@@ -1,8 +1,22 @@
 .brand-list {
     list-style: none;
     display: grid;
+    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(auto-fill, 110px);
     padding: 30px 0 0;
     margin: 0;
     gap: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .brand-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .brand-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

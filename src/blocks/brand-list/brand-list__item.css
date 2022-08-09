@@ -4,3 +4,10 @@
     box-shadow: 0px 6.47059px 12.9412px rgba(0, 0, 0, 0.05), 0px 0px 1.29412px rgba(10, 33, 65, 0.13);
     border-radius: 5px;
 }
+
+@media screen and (max-width: 400px) {
+    .brand-list__item {
+        width: 100%;
+        max-width: 110px;
+    }
+}
